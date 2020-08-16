@@ -1,0 +1,410 @@
+@media (max-width: 1200px) {
+
+    header .banner-container .desc .desc-title h1,
+    header .banner-container .desc .desc-buttons {
+        margin-left: 0;
+    }
+
+    section.about .about-container .info-what span {
+        display: inline !important;
+    }
+
+}
+
+
+
+@media (max-width: 992px) {
+
+
+    header .banner-container .desc .desc-p { width: 100%; }
+
+    header .banner-container .desc .desc-updates { margin-bottom: 50px; }
+
+    header .top-bar nav .logo {
+        flex-basis: 100%;
+    }
+
+    header .top-bar nav ul.mob {
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    height: 100vh;
+    width: 250px;
+    z-index: 999999;
+    align-items: start;
+    padding-top: 30px;
+    justify-content: flex-start;
+}
+
+header .top-bar nav ul.mob li {
+    padding: 15px 0 15px 50px;
+    margin-right: 0;
+}
+
+section.about .about-container .info h2 {
+    text-align: center;
+}
+
+
+header .banner-container .desc {
+    width: 70%;
+    margin: auto;
+}
+
+
+
+section.spread .spread-container .spread-box{
+    flex-basis: 45%;
+    margin-bottom: 50px;
+    margin-right: 5%;
+}
+
+
+
+section.symptoms .symptoms-container {
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+section.symptoms .symptom-box  {
+    flex-basis: 40%;
+    background-color: #fff;
+    padding: 25px;
+    margin-bottom: 60px;
+    margin-right: 10%;
+}
+
+section.symptoms .symptoms-alert .symptoms-alert-container .pp {
+    margin-bottom: 35px;
+}
+
+section.symptoms .symptom-box:nth-child(even) {
+    margin-right: 0;
+}
+
+
+section.spread .spread-button {
+    margin-top: 50px;
+}
+
+
+
+section.prevention .prevention-container .prevention-box {
+    flex-basis: 40%;
+}
+
+
+section.safe .safe-container .safe-title {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px !important;
+}
+
+section.safe .safe-container .safe-title h3,
+section.safe .safe-container .safe-title h2 {
+    text-align: left;
+}
+
+section.safe .safe-container .safe-content {
+    width: 70%;
+    margin: auto;
+}
+
+
+
+
+section.protect2 .protect2-container .img-box {
+    flex-basis: 90%;
+    order: 1;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+section.protect2 .protect2-container .donts {
+    flex-basis: 47%;
+    order: 2;
+}
+
+section.protect2 .protect2-container .dos {
+    flex-basis: 47%;
+    order: 3;
+}
+
+
+
+
+section.recent .recent-container .recent-box{
+    flex-basis: 40%;
+    margin-bottom: 50px;
+    margin-right: 5%;
+}
+
+
+
+
+
+footer .footer-container .main-links {
+    width: 90%;
+    margin: 0 34.5px 50px 34.5px;
+}
+
+footer .footer-container .all-links .footer-link {
+    margin: 0 30px 50px 30px;
+}
+
+/*************** Section About ***************/
+
+
+    section.about .about-container .info { margin-bottom: 50px; }
+
+    section.about .about-container .info,
+    section.about .about-container .know {
+        width: 80%;
+        margin: auto;
+    }
+
+
+    section.prevention .prevention-buttons .full-button {
+    margin-bottom: 50px;
+}
+
+
+
+section.protect .protect-container .protect-text {
+    flex-basis: 80%;
+    margin: 0 69px;
+}
+
+section.protect .protect-container .protect-img {
+    flex-basis: 69px;
+    margin: 0 69px;
+}
+
+
+
+section.wash .wash-container .wash-box {
+    flex-basis: 19%;
+    margin-bottom: 50px;
+}
+
+
+
+
+section.qa .qa-container .qtitles {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+section.qa .qa-container .qmain {
+    width: 95%;
+    margin: auto;
+}
+
+
+
+}
+
+
+
+@media (max-width: 768px) {
+
+
+    header .banner-container .desc {
+        width: 100%;
+    }
+
+    header .banner-container .desc .desc-p { width: 100%; }
+
+    section.spread .spread-container .spread-box{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+
+
+    section.symptoms .title {
+        margin-bottom: 100px;
+    }
+
+    section.symptoms .symptom-box {
+        margin: 40px auto;
+        width: 60%;
+        overflow: visible;
+    }
+
+    section.symptoms .symptom-box:nth-child(even) {
+        margin-right: auto;
+    }
+
+    section.about .about-container .info,
+    section.about .about-container .know {
+        width: 90%;
+    }
+
+
+
+    section.prevention .prevention-container .prevention-box {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+
+
+    section.protect .protect-container .protect-text {
+        flex-basis: 90%;
+        margin: 0 25px;
+    }
+    
+    section.protect .protect-container .protect-img {
+        flex-basis: 90%;
+        margin: 0 25px;
+    }
+
+
+
+    section.wash .wash-container .wash-box {
+        flex-basis: 26%;
+    }
+
+
+section.safe .safe-container .safe-title {
+    width: 90%;
+    margin: auto;
+}
+
+section.safe .safe-container .safe-title {
+    width: 90%;
+    margin: auto;
+}
+
+section.safe .safe-container .safe-title h3,
+section.safe .safe-container .safe-title h2 {
+    text-align: center;
+}
+
+section.safe .safe-container .safe-content {
+    width: 90%;
+    margin: auto;
+}
+
+
+
+section.recent .recent-container .recent-box{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+
+
+footer .footer-cr .copyrights a {
+    flex-basis: 60%;
+    margin-top: 20px;
+}
+
+
+
+
+section.symptoms .title {
+    margin-bottom: 0;
+}
+
+
+
+}
+
+@media (max-width: 576px) {
+
+    header .banner-container .desc .desc-p { width: 95%; }
+
+    header .banner-container .desc .desc-counters .counter-box { margin-right: 0; }
+
+    section.symptoms .symptom-box {
+        max-width: 250px;
+    }
+
+    section.symptoms .symptom-box p {
+        width: 95%;
+    }
+
+    .symptoms-alert .symptoms-alert-container .button {
+        width: 75%;
+    }
+
+    .symptoms-alert .symptoms-alert-container .button h3 {
+        padding: 12px 18px;
+        text-align: center;
+    }
+
+    .symptoms-alert .symptoms-alert-container .button a {
+        font-size: 1rem;
+    }
+
+    .symptoms-alert .symptoms-alert-container .pp {
+        margin-bottom: 25px;
+    }
+
+
+
+    section.protect .protect-container .protect-text {
+        margin: 0 15px;
+    }
+    
+    section.protect .protect-container .protect-img {
+        margin: 0 15px;
+    }
+
+
+
+section.protect2 .protect2-container .donts {
+    flex-basis: 45%;
+}
+
+section.protect2 .protect2-container .dos {
+    flex-basis: 45%;
+}
+
+section.protect2 .protect2-container .donts .box .img-boxx,
+section.protect2 .protect2-container .dos .box .img-boxx  {
+    order: 1;
+}
+
+section.protect2 .protect2-container .donts .box .text,
+section.protect2 .protect2-container .dos .box .text  {
+    order: 2;
+    text-align: left;
+}
+
+
+
+
+
+footer .footer-container .main-links {
+    width: 90%;
+    margin: 0 30px 50px 30px;
+}
+
+footer .footer-container .all-links .footer-link {
+    margin: 0 30px 50px 30px;
+}
+
+}
+
+
+@media (max-width: 450px) {
+
+
+    section.symptoms .symptom-box {
+        width: 75%;
+    }
+
+    section.prevention .prevention-container .prevention-box {
+        width: 75%;
+    }
+
+}

@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus { outline: none; }
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+    overflow-x: hidden;
+    padding: 0 15px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+.grey-overlay {
+    background-color: rgba(185, 185, 185, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+.mob-overlay {
+    background-color: rgba(27, 71, 161, .8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 30;
+    height: 100vh;
+    width: 100vw;
+}
+
+.hide { display: none !important; }
+
+.d-block { display: block !important; }
+
+.d-inline-block { display: inline-block !important; }
+
+.img-fluid {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.relative { position: relative; }
+
+.absolute { position: absolute; }
+
+
+/*************** Flexbox ***************/
+
+
+.d-flex { display: flex; }
+
+.justify-content-between { justify-content: space-between; }
+
+.justify-content-around { justify-content: space-around; }
+
+.justify-content-flex-end { justify-content: flex-end; }
+
+.justify-content-center { justify-content: center; }
+
+.align-items-center { align-items: center; }
+
+.align-items-start { align-items: flex-start; }
+
+.flex-direction-column { flex-direction: column; }
+
+
+
+/*************** Box ***************/
+
+
+
+
+/*************** Buttons ***************/
+
+
+.full-button {
+    border-width: 0;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #2a81ea;
+    /* display: flex; */
+}
+
+
+.full-button:hover {
+    background-color: #394b6c;
+}
+
+.ghost-button {
+    border: none;
+    background: none;
+}
+
+
+/*************** Text ***************/
+
+html {
+    font-size: 16px;
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .ps {
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+}
+
+.long-ps {
+    word-spacing: 2px;
+    letter-spacing: 2px;
+} */
+
+.line, p { line-height: 1.5em; }
+
+.list-unstyled { list-style: none; }
+
+.undecorated { text-decoration: none; }
+
+.bold { font-weight: bold; }
+
+.b900 { font-weight: 900; }
+
+.normal { font-weight: normal; }
+
+.light { font-weight: 400; }
+
+.uppercase { text-transform: uppercase; }
+
+.italic { font-style: italic; }
+
+.nor { font-style: normal; }
+
+.text-align-center { text-align: center; }
+
+
+/*************** Colors ***************/
+
+
+.dark-blue { color: #394b6c; }
+
+.mid-blue { color: #50658e; }
+
+.light-blue { color: #2a81ea; }
+
+.white { color: #fff; }
+
+.red { color: #ff5363; }
+
+.grey { color: #7d92bb; }
+
+.pcolor { color: #3d4b69; }
+
+.ccolor { color: #465675; }
+
+.fcolor { color: #b2bfe0; }
+
+.ffcolor { color: #4b6691; }
+
+
+.bg-dark-blue { background-color: #394b6c; }
+
+.bg-mid-blue { background-color: #50658e; }
+
+.bg-light-blue { background-color: #2a81ea; }
+
+.bg-white { background-color: #fff; }
+
+
+/*************** Main General ***************/
+
+
+
+.title {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.title h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.title h2 {
+    font-size: 2.62rem;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.title p {
+    text-align: center;
+}
